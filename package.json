@@ -1,0 +1,21 @@
+{
+  "name": "vectorouter",
+  "version": "1.0.0",
+  "description": "vectorouter, points URLs to desired callbacks, just like a good ol' vector should",
+  "main": "index.js",
+    "scripts" : {
+        "test" : "NODE_ENV=test node node_modules/.bin/mocha --reporter spec tests/functional/",
+        "start" : "node server.js"
+    },
+  "keywords": [
+    "jabong",
+    "router"
+  ],
+  "author": "Avinash",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.5",
+    "supertest": "^0.15.0"
+  }
+}
